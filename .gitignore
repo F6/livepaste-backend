@@ -205,3 +205,15 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+
+# User data and sessions
+sessions.json
+users.json
+
+# Uploaded files and temporary data
+static/uploads/

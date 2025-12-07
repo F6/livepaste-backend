@@ -1,0 +1,7 @@
+fastapi==0.95.2
+uvicorn[standard]==0.22.0
+python-multipart==0.0.6
+websockets==11.0.3
+PyJWT==2.10.1
+python-dotenv==1.0.0
+bcrypt==4.1.1
