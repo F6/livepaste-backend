@@ -313,4 +313,5 @@ async def startup_event():
 
 
 if __name__ == "__main__":
-    uvicorn.run("backend.app.main:app", host="0.0.0.0", port=8000, log_level="info")
+    # bind to localhost only when running directly; reverse proxy (nginx) should be used in front
+    uvicorn.run("backend.app.main:app", host="127.0.0.1", port=8000, log_level="info")
